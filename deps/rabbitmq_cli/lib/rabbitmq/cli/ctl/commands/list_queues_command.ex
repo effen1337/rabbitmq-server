@@ -24,7 +24,7 @@ defmodule RabbitMQ.CLI.Ctl.Commands.ListQueuesCommand do
             # these are aliases
             consumer_utilisation consumer_capacity
             memory slave_pids synchronised_slave_pids state type
-            leader members online)a
+            leader members online confirm_on)a
 
   def description(), do: "Lists queues and their properties"
   def usage(), do: "list_queues [--vhost <vhost>] [--online] [--offline] [--local] [--no-table-headers] [<column>, ...]"
